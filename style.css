@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+div#main {
+    text-align: center;
+}
+#searchinput {
+    border:1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+width: 25%;
+text-align: center;
+margin-bottom: 10px;
+}
+.icon {
+    position: absolute;
+    min-width: 40px;
+    align-self: center;
+    margin-top: 10px;
+color:gray;
+}
+.search {
+    background-color: rgb(7, 5, 29);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+}
+.search i {
+    padding-right: 5px;
+}
+#box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    padding: 20px;
+    
+}
+#box i {
+font-size: 2.5rem;
+padding-bottom:17px;
+}
+#box p {
+    font-size: 20px;
+
+}
+.form {
+    margin-top: 30px;
+}
+.shadow {
+    -webkit-box-shadow: 13px 10px 9px -1px rgba(0,0,0,0.4);
+-moz-box-shadow: 13px 10px 9px -1px rgba(0,0,0,0.4);
+box-shadow: 13px 10px 9px -1px rgba(0,0,0,0.4);
+width: 70%;
+padding: 7px;
+height: 100%;
+color: rgb(7, 5, 29);
+}
+.box1 {
+    background-color: rgb(223, 221, 118);
+
+}
+.box2 {
+    background-color: rgb(218, 160, 205);
+}
+.box3 {
+    background-color: rgb(157, 183, 218);
+}
+.box4 {
+    background-color: aquamarine;
+}
+.box5 {
+    background-color: rgb(131, 228, 122);
+}
+.box7 {
+    background-color: rgb(214, 238, 128);
+}
+.box8 {
+    background-color: rgb(189, 109, 72);
+}
+#box p {
+    text-align: center;
+    color:rgb(7, 5, 29);
+}
+
+@media screen and (max-width: 702px) {
+    #box {
+        grid-template-columns: 2fr 2fr;
+
+    }
+    .shadow {
+        width: 90%;
+    }
+    #searchinput {
+        width: 60%;
+    }
+}
